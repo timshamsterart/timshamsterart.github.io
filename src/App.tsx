@@ -154,7 +154,7 @@ class App extends React.Component<{}, AppState> {
     ) {
       setInterval(this.detectCheater.bind(this), this.rollingAverageWindow);
     }
-    this.socket = io("https://liberation.ucstones.com");
+    this.socket = io("https://liberation.timshamsterart.github.io");
     // this.socket = io("http://localhost:9000");
     this.socket.on("playersOnline", (playersOnline: number) =>
       this.setState({ playersOnline })
