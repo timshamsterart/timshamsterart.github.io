@@ -1,5 +1,5 @@
 {
-  "name": "ucstones.com",
+  "name": "timshamsterart.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -27,5 +27,5 @@
     "@types/react-dom": "^16.0.5",
     "typescript": "^2.8.3"
   },
-  "homepage": "http://UCStones.com"
+  "homepage": "http://timshamsterart.github.io"
 }
